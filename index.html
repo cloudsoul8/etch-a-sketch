@@ -8,8 +8,22 @@
     <title>etch-a-sketch</title>
 </head>
 <body>
-    <button onclick="changeDimension()">change grid dimension</button>
     <script src="script.js" defer></script>
-    <div id="pixel-container"></div>
+
+
+    
+    <button onclick="changeDimension()">change grid dimension</button>
+    <div id="etch-container">
+        <div id="pixel-container"></div>
+
+        <!-- allows user to pick color and also a randomly changing option -->
+        <div id="toolbox-container">
+            <p>toolbox</p>
+            <div id="color-container"></div>
+        </div>
+    </div>
+    
+
+
 </body>
 </html>

@@ -59,7 +59,8 @@ function initializeColorPicker() {
     })
 
     const randomColor = document.createElement("div")
-    randomColor.style.backgroundColor = `#124121`
+    randomColor.style.backgroundImage = "url(imgs/random.jpeg)"
+    randomColor.style.backgroundSize = "contain"
     randomColor.style.width = '32px'
     randomColor.style.height = '32px'
     randomColor.addEventListener('click', (e) => {
@@ -73,3 +74,5 @@ function changeCurrentColor(e) {
     randomColorMode = false
     currentColor = this.style.backgroundColor
 }
+
+Z
